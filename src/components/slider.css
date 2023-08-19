@@ -1,0 +1,111 @@
+.sliderheading{
+    width: 65%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sliderheadingH1{
+    float: left;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.viewall{
+    float: right;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.mainslider0, .mainslider00, .mainslider000 {
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: sticky;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+
+
+.leftarrow0 {
+    margin-top: 4px;
+    margin-left: 6px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.rightarrow0 {
+    float: right;
+    margin-top: 4px;
+    margin-right: 6px;
+    cursor: pointer;
+    padding-left: 13px;
+}
+
+.itemsul0{
+    width: 100%;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: calc(100% - 40px);
+    scroll-behavior: smooth;
+    overflow: scroll;
+    padding-left: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    width: auto;
+}
+
+.itemsul0 li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.itemsul0 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16.5px;
+    padding-top: 25px;
+    padding-left: 25px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.container0{
+    border-radius: 10px;
+    background-color: #329ed4;
+    height: 170px;
+    width: 300px;
+    margin: 10px;
+    flex: 0 0 auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .mainslider0, .mainslider00, .mainslider000{
+    width: 95%;
+  }
+  
+.leftarrow0, .rightarrow0{
+    width: 75px;
+}
+
+  }
